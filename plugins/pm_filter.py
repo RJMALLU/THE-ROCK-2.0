@@ -409,7 +409,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
             ],[
             InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷', switch_inline_query_current_chat=''),
+            ],[
             InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽', url='https://t.me/KAAVAL_KAARAN_tg'),
+            ],[
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄', callback_data="close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
