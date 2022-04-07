@@ -428,22 +428,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="𝚃"
         )
         await query.message.edit_text(
-            text="𝙷"
+            text="ᴛ𝙷"
         )
         await query.message.edit_text(
-            text="𝙴"
+            text="ᴛʜ𝙴"
         )
         await query.message.edit_text(
             text="𝚁"
         )
         await query.message.edit_text(
-            text="𝙾"
+            text="ʀᴏ"
         )
         await query.message.edit_text(
-            text="𝙲"
+            text="ʀᴏ𝙲"
         )
         await query.message.edit_text(
-            text="𝙺"
+            text="ʀᴏᴄᴋ"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -467,22 +467,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="𝚃"
         )
         await query.message.edit_text(
-            text="𝙷"
+            text="ᴛ𝙷"
         )
         await query.message.edit_text(
-            text="𝙴"
+            text="ᴛʜ𝙴"
         )
         await query.message.edit_text(
             text="𝚁"
         )
         await query.message.edit_text(
-            text="𝙾"
+            text="ʀᴏ"
         )
         await query.message.edit_text(
-            text="𝙲"
+            text="ʀᴏ𝙲"
         )
         await query.message.edit_text(
-            text="𝙺"
+            text="ʀᴏᴄᴋ"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -506,22 +506,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="𝚃"
         )
         await query.message.edit_text(
-            text="𝙷"
+            text="ᴛ𝙷"
         )
         await query.message.edit_text(
-            text="𝙴"
+            text="ᴛʜ𝙴"
         )
         await query.message.edit_text(
             text="𝚁"
         )
         await query.message.edit_text(
-            text="𝙾"
+            text="ʀᴏ"
         )
         await query.message.edit_text(
-            text="𝙲"
+            text="ʀᴏ𝙲"
         )
         await query.message.edit_text(
-            text="𝙺"
+            text="ʀᴏᴄᴋ"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -729,11 +729,11 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}",
+                    text=f"📁{file.file_name}",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
+                    text=f"📁{get_size(file.file_size)}",
                     callback_data=f'{pre}_#{file.file_id}',
                 ),
             ]
@@ -745,12 +745,12 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"💠 1/{round(int(total_results) / 10)}", callback_data="pages"),
+             InlineKeyboardButton(text="🛡️ ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="💠 1/1", callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
