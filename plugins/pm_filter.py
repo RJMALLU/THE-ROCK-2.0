@@ -424,6 +424,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="𝚃"
+        )
+        await query.message.edit_text(
+            text="𝙷"
+        )
+        await query.message.edit_text(
+            text="𝙴"
+        )
+        await query.message.edit_text(
+            text="𝚁"
+        )
+        await query.message.edit_text(
+            text="𝙾"
+        )
+        await query.message.edit_text(
+            text="𝙲"
+        )
+        await query.message.edit_text(
+            text="𝙺"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -442,6 +463,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats')
         ]]
+        await query.message.edit_text(
+            text="𝚃"
+        )
+        await query.message.edit_text(
+            text="𝙷"
+        )
+        await query.message.edit_text(
+            text="𝙴"
+        )
+        await query.message.edit_text(
+            text="𝚁"
+        )
+        await query.message.edit_text(
+            text="𝙾"
+        )
+        await query.message.edit_text(
+            text="𝙲"
+        )
+        await query.message.edit_text(
+            text="𝙺"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -460,6 +502,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝙲𝙾𝙻𝚂𝙴', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="𝚃"
+        )
+        await query.message.edit_text(
+            text="𝙷"
+        )
+        await query.message.edit_text(
+            text="𝙴"
+        )
+        await query.message.edit_text(
+            text="𝚁"
+        )
+        await query.message.edit_text(
+            text="𝙾"
+        )
+        await query.message.edit_text(
+            text="𝙲"
+        )
+        await query.message.edit_text(
+            text="𝙺"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
