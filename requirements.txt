@@ -7,5 +7,7 @@ umongo==3.0.1
 requests
 bs4
 imdbpy
-aiofiles
-aiohttp
+yt_dlp
+Youtube_dl
+Youtube_search
+youtube-search-python==1.4.6
