@@ -96,7 +96,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-        SONG_TXT = """<b>🎼Song Download🎼</b>
+    SONG_TXT = """<b>🎼Song Download🎼</b>
 Song Download Module, For Those Who Love Music
 <b>🎈 Command 🎈</b>
 - /song [Song Name] - To Download Music 😁
