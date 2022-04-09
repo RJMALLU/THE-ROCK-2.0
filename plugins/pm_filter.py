@@ -424,6 +424,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+         await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -442,6 +460,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+         await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -460,6 +496,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝙲𝙾𝙻𝚂𝙴', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+         await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
@@ -541,7 +595,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -560,8 +614,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+         await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
         users = await db.total_users_count()
@@ -735,23 +807,23 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(50)
+            await asyncio.sleep(120)
             await hehe.delete()
             await message.reply_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(50)
+            await asyncio.sleep(120)
             await hmm.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(50)
+            await asyncio.sleep(120)
             await fek.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️")
     else:
         fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(50)
+        await asyncio.sleep(120)
         await fuk.delete()
         await message.reply_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️")
 
