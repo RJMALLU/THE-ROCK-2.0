@@ -104,8 +104,7 @@ This module only works for my admins
 - `/song Naadan Vibe` 
 <b>🌀𝚄𝚂𝙰𝙶𝙴🌀</b>
 - 𝙲𝙰𝙽 𝙱𝙴 𝚄𝚂𝙴𝙳 𝙱𝚈
-- 𝚆𝙾𝚁𝙺𝚂 𝙸𝙽 𝙱𝙾𝚃 𝙿𝙼 & 𝙱𝙾𝚃 𝙰𝙳𝙴𝙳𝙳 𝙶𝚁𝙾𝚄𝙿
-𝙼𝙰𝙳𝙴 𝙱𝚈❤️ <a href=https://t.me/KAAVAL_KAARAN_tg>𝙼𝚂𝙵𝙰 𝙺𝙰𝙰𝚅𝙰𝙻 𝙺𝙰𝙰𝚁𝙰𝙽</a>"""
+- 𝚆𝙾𝚁𝙺𝚂 𝙸𝙽 𝙱𝙾𝚃 𝙿𝙼 & 𝙱𝙾𝚃 𝙰𝙳𝙴𝙳𝙳 𝙶𝚁𝙾𝚄𝙿"""
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
