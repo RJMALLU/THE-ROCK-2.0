@@ -425,22 +425,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴 𝚃𝙷𝙴 𝙼𝙴𝙽𝚄', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -456,6 +450,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
+            ],[
+            InlineKeyboardButton('Song', callback_data='songs'),
             ],[
             InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats')
@@ -505,6 +501,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "songs":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SONG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
