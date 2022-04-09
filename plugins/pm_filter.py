@@ -461,22 +461,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚂', callback_data='stats')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -497,22 +491,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝙾𝙻𝚂𝙴', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -525,22 +513,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='about')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -553,6 +535,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('ʙᴜᴛᴛᴏɴꜱ', callback_data='button')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
@@ -563,6 +557,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='manuelfilter')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.BUTTON_TXT,
@@ -573,6 +579,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.AUTOFILTER_TXT,
@@ -583,6 +601,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CONNECTION_TXT,
@@ -594,6 +624,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.EXTRAMOD_TXT,
@@ -604,6 +646,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='extra')
         ]]
+        await query.message.edit_text(
+            text="▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ADMIN_TXT,
@@ -616,22 +670,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -653,22 +701,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
         await query.message.edit_text(
-            text="⭗⭗⭗⭗⭗"
+            text="▢▢▢"
         )
         await query.message.edit_text(
-            text="⦿⭗⭗⭗⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⭗⭗⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿⦿⦿⭗⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⭗"
-        )
-        await query.message.edit_text(
-            text="⦿⦿⦿⦿⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
