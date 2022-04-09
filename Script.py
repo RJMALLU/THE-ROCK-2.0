@@ -101,7 +101,7 @@ This module only works for my admins
 <b>🎈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 🎈</b>
 - /song 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 - 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 😁
 <b>🎶 𝙴𝚇𝙰𝙼𝙿𝙻𝙴 🎶</b>
-- `/song Naadan Vibe` 
+- ´/song Naadan Vibe´
 <b>🌀𝚄𝚂𝙰𝙶𝙴🌀</b>
 - 𝙲𝙰𝙽 𝙱𝙴 𝚄𝚂𝙴𝙳 𝙱𝚈
 - 𝚆𝙾𝚁𝙺𝚂 𝙸𝙽 𝙱𝙾𝚃 𝙿𝙼 & 𝙱𝙾𝚃 𝙰𝙳𝙴𝙳𝙳 𝙶𝚁𝙾𝚄𝙿"""
