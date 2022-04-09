@@ -597,6 +597,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
         users = await db.total_users_count()
@@ -616,6 +634,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('🌀', callback_data='rfrsh')
         ]]
+        await query.message.edit_text(
+            text="⭗⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⭗⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⭗⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⭗⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⭗"
+        )
+        await query.message.edit_text(
+            text="⦿⦿⦿⦿⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
         users = await db.total_users_count()
