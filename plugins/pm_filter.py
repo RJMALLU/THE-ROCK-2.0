@@ -439,7 +439,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="⦿⦿⦿⦿⭗"
         )
-         await query.message.edit_text(
+        await query.message.edit_text(
             text="⦿⦿⦿⦿⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -449,7 +449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
         await query.answer('Piracy Is Crime')
-     elif query.data == "help":
+    elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
@@ -475,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="⦿⦿⦿⦿⭗"
         )
-         await query.message.edit_text(
+        await query.message.edit_text(
             text="⦿⦿⦿⦿⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -511,7 +511,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="⦿⦿⦿⦿⭗"
         )
-         await query.message.edit_text(
+        await query.message.edit_text(
             text="⦿⦿⦿⦿⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
