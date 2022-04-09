@@ -96,14 +96,16 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    SONG_TXT = """<b>🎼Song Download🎼</b>
-Song Download Module, For Those Who Love Music
-<b>🎈 Command 🎈</b>
-- /song [Song Name] - To Download Music 😁
-<b>🌀Usage🌀</b>
-- Can Be Used By Everyone
-- Works in bot pm
-Made By <a href=https://t.me/KAAVAL_KAARAN_tg>𝙼𝚂𝙵𝙰 𝙺𝙰𝙰𝚅𝙰𝙻 𝙺𝙰𝙰𝚁𝙰𝙽</a>"""
+    SONG_TXT = """<b>🎼𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳🎼</b>
+𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲
+<b>🎈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 🎈</b>
+- /song 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 - 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 😁
+<b>🎶 𝙴𝚇𝙰𝙼𝙿𝙻𝙴 🎶</b>
+- `/song Naadan Vibe` 
+<b>🌀𝚄𝚂𝙰𝙶𝙴🌀</b>
+- 𝙲𝙰𝙽 𝙱𝙴 𝚄𝚂𝙴𝙳 𝙱𝚈
+- 𝚆𝙾𝚁𝙺𝚂 𝙸𝙽 𝙱𝙾𝚃 𝙿𝙼 & 𝙱𝙾𝚃 𝙰𝙳𝙴𝙳𝙳 𝙶𝚁𝙾𝚄𝙿
+𝙼𝙰𝙳𝙴 𝙱𝚈❤️ <a href=https://t.me/KAAVAL_KAARAN_tg>𝙼𝚂𝙵𝙰 𝙺𝙰𝙰𝚅𝙰𝙻 𝙺𝙰𝙰𝚁𝙰𝙽</a>"""
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
